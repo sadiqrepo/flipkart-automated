@@ -1,0 +1,12 @@
+/Users/sadiq/logistimo-assessment/src/test/java/pages/BasePage.java
+/Users/sadiq/logistimo-assessment/src/test/java/scenarios/BaseTest.java
+/Users/sadiq/logistimo-assessment/src/test/java/Util/AssertUtil.java
+/Users/sadiq/logistimo-assessment/src/test/java/pages/HomePage.java
+/Users/sadiq/logistimo-assessment/src/test/java/pages/LoginPage.java
+/Users/sadiq/logistimo-assessment/src/test/java/Util/ScreenshotUtil.java
+/Users/sadiq/logistimo-assessment/src/test/java/scenarios/HomePageTest.java
+/Users/sadiq/logistimo-assessment/src/test/java/Util/ConfigReader.java
+/Users/sadiq/logistimo-assessment/src/test/java/Util/LogUtil.java
+/Users/sadiq/logistimo-assessment/src/test/java/scenarios/LoginTest.java
+/Users/sadiq/logistimo-assessment/src/test/java/Util/BaseUtil.java
+/Users/sadiq/logistimo-assessment/src/test/java/Util/WaitUtil.java

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomePageTest"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.219">
+  <properties />
+  
+  
+            <testcase name="validateFooterComponents" time="0.817" classname="scenarios.HomePageTest" />
+                <testcase name="clickOnProductLink" time="1.223" classname="scenarios.HomePageTest" />
+                <testcase name="validateHeaderComponents" time="0.967" classname="scenarios.HomePageTest" />
+                <testcase name="searchProduct" time="3.953" classname="scenarios.HomePageTest" />
+                <testcase name="leftRailFiltersExists" time="0.259" classname="scenarios.HomePageTest" />
+      
+</testsuite>

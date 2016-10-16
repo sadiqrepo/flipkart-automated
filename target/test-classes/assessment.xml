@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Assessment" verbose="1" >
+
+    <listeners>
+
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="Util.LogUtil" />
+        <listener class-name="Util.ScreenshotUtil" />
+
+    </listeners>
+
+
+
+    <test name="TestFirefox" preserve-order="true" >
+        <classes>
+            <class name="scenarios.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="HomePageTest" preserve-order="true" >
+        <classes>
+            <class name="scenarios.HomePageTest"/>
+
+        </classes>
+    </test>
+
+    <test name="ProductDetailsTest" preserve-order="true" >
+        <classes>
+            <class name="scenarios.ProductDetailsTest"/>
+
+        </classes>
+    </test>
+
+
+
+</suite>

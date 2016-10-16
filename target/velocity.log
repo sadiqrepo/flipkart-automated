@@ -1,0 +1,35 @@
+Sun Oct 16 10:14:11 IST 2016  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Sun Oct 16 10:14:11 IST 2016   [info] ************************************************************** 
+Sun Oct 16 10:14:11 IST 2016   [info] Starting Jakarta Velocity v1.4
+Sun Oct 16 10:14:11 IST 2016   [info] RuntimeInstance initializing.
+Sun Oct 16 10:14:11 IST 2016   [info] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+Sun Oct 16 10:14:11 IST 2016   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Sun Oct 16 10:14:11 IST 2016   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Sun Oct 16 10:14:11 IST 2016   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Sun Oct 16 10:14:11 IST 2016   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Sun Oct 16 10:14:11 IST 2016   [info] ClasspathResourceLoader : initialization starting.
+Sun Oct 16 10:14:11 IST 2016   [info] ClasspathResourceLoader : initialization complete.
+Sun Oct 16 10:14:11 IST 2016   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Sun Oct 16 10:14:11 IST 2016   [info] Default ResourceManager initialization complete.
+Sun Oct 16 10:14:11 IST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Sun Oct 16 10:14:11 IST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Sun Oct 16 10:14:11 IST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Sun Oct 16 10:14:11 IST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Sun Oct 16 10:14:11 IST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Sun Oct 16 10:14:11 IST 2016   [info] Created: 20 parsers.
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : initialization starting.
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Sun Oct 16 10:14:11 IST 2016  [error] ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro :  VM library template macro registration complete.
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : messages on  : VM system will output logging messages
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Sun Oct 16 10:14:11 IST 2016   [info] Velocimacro : initialization complete.
+Sun Oct 16 10:14:11 IST 2016   [info] Velocity successfully started.
+Sun Oct 16 10:14:11 IST 2016   [info] ResourceManager : found org/uncommons/reportng/templates/xml/results.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Sun Oct 16 10:14:11 IST 2016   [info] ResourceManager : found org/uncommons/reportng/templates/html/index.html.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Sun Oct 16 10:14:11 IST 2016   [info] ResourceManager : found org/uncommons/reportng/templates/html/overview.html.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Sun Oct 16 10:14:16 IST 2016  [error] Method getUser threw exception for reference $meta in template org/uncommons/reportng/templates/html/overview.html.vm at  [18,31]

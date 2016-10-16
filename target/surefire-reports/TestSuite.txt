@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 84.65 sec <<< FAILURE! - in TestSuite
+validateHeaderComponents(scenarios.HomePageTest)  Time elapsed: 30.585 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Electronics')]"}
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.7.0_67'
+*** Element info: {Using=xpath, value=//span[contains(text(),'Electronics')]}
+Session ID: 93dbebdd-2bb4-d645-b2c6-1dce07828059
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=41.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.isDisplayed(Unknown Source)
+	at pages.HomePage.verifyHeaderComponentsDisplayed(HomePage.java:78)
+	at scenarios.HomePageTest.validateHeaderComponents(HomePageTest.java:33)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Electronics')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+

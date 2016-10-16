@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestFirefox"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="94.397">
+  <properties />
+  
+  
+            <testcase name="testLoginSuccess" time="8.627" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="9.289" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="8.900" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="8.019" classname="scenarios.LoginTest" />
+                <testcase name="testLoginPageDisplayed" time="6.250" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="8.505" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="8.050" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="8.871" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="10.654" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="8.691" classname="scenarios.LoginTest" />
+                <testcase name="testLoginSuccess" time="8.541" classname="scenarios.LoginTest" />
+      
+</testsuite>

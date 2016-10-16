@@ -1,0 +1,176 @@
+TestFirefox--Test start
+
+Before Login
+****************************************************************************************
+****************************************************************************************
+$$$$$$$$$$$$$$$$$$$$$                 LoginTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+****************************************************************************************
+****************************************************************************************
+[TestClass class scenarios.LoginTest]:testLoginPageDisplayed--Test Started->
+Test 'testLoginPageDisplayed'  PASSED  
+Priority of this method is 0
+
+screenshots/Success//LoginTest_17-Oct-2016__05_07AM/testLoginPageDisplayed/LoginTest.testLoginPageDisplayed.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_07AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_07AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_07AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_07AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_08AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_08AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_08AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_09AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_09AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+[TestClass class scenarios.LoginTest]:testLoginSuccess--Test Started->
+Successfully Logged In
+Test 'testLoginSuccess'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//LoginTest_17-Oct-2016__05_09AM/testLoginSuccess/LoginTest.testLoginSuccess.png
+
+
+
+TestFirefox--Test Finish->
+
+HomePageTest--Test start
+
+Before Login
+****************************************************************************************
+****************************************************************************************
+$$$$$$$$$$$$$$$$$$$$$                 HomePageTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+****************************************************************************************
+****************************************************************************************
+[TestClass class scenarios.HomePageTest]:validateHeaderComponents--Test Started->
+Test 'validateHeaderComponents'  PASSED  
+Priority of this method is 0
+
+screenshots/Success//HomePageTest_17-Oct-2016__05_09AM/validateHeaderComponents/HomePageTest.validateHeaderComponents.png
+
+
+
+[TestClass class scenarios.HomePageTest]:validateFooterComponents--Test Started->
+Test 'validateFooterComponents'  PASSED  
+Priority of this method is 1
+
+screenshots/Success//HomePageTest_17-Oct-2016__05_09AM/validateFooterComponents/HomePageTest.validateFooterComponents.png
+
+
+
+[TestClass class scenarios.HomePageTest]:searchProduct--Test Started->
+Test 'searchProduct'  PASSED  
+Priority of this method is 2
+
+screenshots/Success//HomePageTest_17-Oct-2016__05_09AM/searchProduct/HomePageTest.searchProduct.png
+
+
+
+[TestClass class scenarios.HomePageTest]:leftRailFiltersExists--Test Started->
+Test 'leftRailFiltersExists'  PASSED  
+Priority of this method is 3
+
+screenshots/Success//HomePageTest_17-Oct-2016__05_09AM/leftRailFiltersExists/HomePageTest.leftRailFiltersExists.png
+
+
+
+[TestClass class scenarios.HomePageTest]:clickOnProductLink--Test Started->
+Test 'clickOnProductLink'  PASSED  
+Priority of this method is 4
+
+screenshots/Success//HomePageTest_17-Oct-2016__05_10AM/clickOnProductLink/HomePageTest.clickOnProductLink.png
+
+
+
+HomePageTest--Test Finish->
+
+ProductDetailsTest--Test start
+
+Before Login
+****************************************************************************************
+****************************************************************************************
+$$$$$$$$$$$$$$$$$$$$$                 ProductDetailsTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+****************************************************************************************
+****************************************************************************************
+[TestClass class scenarios.ProductDetailsTest]:productDetailsPage--Test Started->
+Test 'productDetailsPage'  PASSED  
+Priority of this method is 0
+
+screenshots/Success//ProductDetailsTest_17-Oct-2016__05_10AM/productDetailsPage/ProductDetailsTest.productDetailsPage.png
+
+
+
+ProductDetailsTest--Test Finish->
+

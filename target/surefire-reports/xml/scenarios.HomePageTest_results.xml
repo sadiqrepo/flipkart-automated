@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="4.839">
+  <properties />
+            <testcase name="validateHeaderComponents" time="0.136" classname="scenarios.HomePageTest">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Electronics&apos;)]&quot;}
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12&apos;, java.version: &apos;1.7.0_67&apos;
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Electronics&apos;)]}
+Session ID: 93dbebdd-2bb4-d645-b2c6-1dce07828059
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=41.0}]"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Electronics')]"}
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.7.0_67'
+*** Element info: {Using=xpath, value=//span[contains(text(),'Electronics')]}
+Session ID: 93dbebdd-2bb4-d645-b2c6-1dce07828059
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=41.0}]
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+  com.sun.proxy.$Proxy6.isDisplayed(Unknown Source)
+  pages.HomePage.verifyHeaderComponentsDisplayed(HomePage.java:78)
+  scenarios.HomePageTest.validateHeaderComponents(HomePageTest.java:33)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+  org.testng.TestRunner.privateRun(TestRunner.java:757)
+  org.testng.TestRunner.run(TestRunner.java:608)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+  org.testng.TestNG.run(TestNG.java:999)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+  org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+  org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Electronics')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+  <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+  <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/bd/6w_f53cx4s7041_fd1_nmfxw0000gp/T/anonymous4355842345270381639webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="searchProduct" time="4.151" classname="scenarios.HomePageTest" />
+                <testcase name="validateFooterComponents" time="0.552" classname="scenarios.HomePageTest" />
+      
+</testsuite>
